@@ -1,0 +1,83 @@
+
+.slider{
+    width: 100%;
+}
+.header {
+    
+    width:70%;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top:40px;
+    margin-bottom:30px; 
+    
+}
+.containerheader {
+
+    float: right;
+    margin-top: 15.5px;
+}
+.h {
+    margin-left: 12px;
+
+}
+
+.tabovi{
+    color:#737373;
+
+}
+h5{
+    display: inline;
+    margin-right: 13px; 
+}
+hr {
+
+    color:#737373;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.mcbook{
+    animation: fadein 1s;
+}
+
+.Ipd {
+position: absolute;
+left: 80%;
+bottom: 0;
+animation: fadein 1s 1s;
+animation-fill-mode: both;
+
+}
+.containermain{
+position: absolute;
+left: 20%;
+top: 68%;
+}
+.Iphone{
+    position: absolute;
+    left: 120%;
+    bottom: 0;
+    animation : fadein 1s 2s;
+animation-fill-mode: both;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+
+}
+.p1{
+   text-align: center;
+   
+}
+
+.play{
+color: gray;
+background-color: orange;
+
+}
